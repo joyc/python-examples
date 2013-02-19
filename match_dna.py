@@ -1,4 +1,9 @@
 def match_dna(query, sequence):
+    if query in sequence:
+        return True
+    else:
+        return False
+        
     # if query is in sequence:
     # return True
     # else
@@ -10,5 +15,8 @@ def match_dna(query, sequence):
 
 
 mydna = 'gaaacctta'
-myquery = 'aac'
-print match_dna(myquery, mydna)
+myquery = 'ggc'
+if match_dna(myquery, mydna):
+    print "Yay it matches"
+else:
+    print "No it doesn't match"
