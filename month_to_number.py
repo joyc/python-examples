@@ -12,7 +12,7 @@ else:
 if month == 'January':
     print 1
 else:
-    if month == 'February:'
+    if month == 'February':
         print 2
     else:
         if month == 'March':
