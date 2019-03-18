@@ -27,7 +27,7 @@ def spider(sn, book_list=[]):
         link = li.xpath('div/p[@class="proName clearfix"]/a/@href')
         print(link[0])
         # 店铺
-        store = li.xpath('div/p[@class="storeName limit_width"]/a/@title')
+        store = li.xpath('div/p[@class="searh_shop_storeName storeName limit_width"]/a/@title')
         print(store)
 
         book_list.append({

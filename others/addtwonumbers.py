@@ -6,6 +6,6 @@ second_sum = 7 + 11
 
 total = sum + second_sum
 total_str = str(total)
-print "The total is ", total
+print("The total is ", total)
 
 

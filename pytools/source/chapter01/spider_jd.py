@@ -36,7 +36,7 @@ def spider(sn, book_list=[]):
 
         # 店铺
         store = li.xpath('div//a[@class="curr-shop"]/@title')
-        print(store[0])
+        print('第三方商家' if store is None else store[0])
 
         book_list.append({
             'title': title[0],

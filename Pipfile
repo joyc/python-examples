@@ -8,7 +8,12 @@ verify_ssl = true
 [packages]
 selenuim = "*"
 selenium = "*"
-coverage = "*"
+coverage = "==4.5.3"
+pip = "==19.0.3"
+virtualenv = "==16.4.3"
+setuptools = "==40.8.0"
+virtualenv-clone = "==0.5.1"
+certifi = "==2019.3.9"
 
 [requires]
 python_version = "3.7"
